@@ -197,5 +197,28 @@
     "description": "Use 'CodeBrew' to virtually interpret Python, Node, C, C++, Java, C#, PHP, MySQL, Rust or Go code.",
     "icon": "https://imgur.com/iLE5ceA.png",
     "authConfig": []
+  },
+  {
+    "name": "ReAct agent",
+    "pluginKey": "react_agent",
+    "description": "A Reasoning and acting agent that can reason more intelligently compared to normal agents.",
+    "icon": "/assets/web-browser.svg",
+    "authConfig": [
+      {
+        "authField": "GOOGLE_CSE_ID",
+        "label": "Google CSE ID",
+        "description": "This is your Google Custom Search Engine ID. For instructions on how to obtain this, see <a href='https://github.com/danny-avila/LibreChat/blob/main/docs/features/plugins/google_search.md'>Our Docs</a>."
+      },
+      {
+        "authField": "GOOGLE_SEARCH_API_KEY",
+        "label": "Google API Key",
+        "description": "This is your Google Custom Search API Key. For instructions on how to obtain this, see <a href='https://github.com/danny-avila/LibreChat/blob/main/docs/features/plugins/google_search.md'>Our Docs</a>."
+      },
+      {
+        "authField": "OPENAI_API_KEY",
+        "label": "OpenAI API Key",
+        "description": "Use OpenAI API Key to access LLM models."
+      }
+    ]
   }
 ]
